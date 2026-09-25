@@ -52,7 +52,7 @@ console.log("REGISTERING STREAK");
 app.use("/api/streak", streakRoutes);
 
 console.log("REGISTERING RESUME");
-app.use("/api/resume", resumeRoutes);
+//app.use("/api/resume", resumeRoutes);
 
 console.log("REGISTERING SKILL VERIFICATION");
 app.use("/api/skill-verification", skillVerificationRoutes);
